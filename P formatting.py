@@ -1,0 +1,10 @@
+sno=int(input("enter the s.no value"))
+Item=input("enter the items ")
+qty=int(input("enter the qty value"))
+mrp=float(input("enter a mrp"))
+amount=qty*mrp
+print("sno","Item","qty","mrp",sep="|")
+print(end="-------------\n")
+print(sno,Item,qty,mrp,sep="|")
+print(end="------------------------\n")
+print("Toatl:", amount)
